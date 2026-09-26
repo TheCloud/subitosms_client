@@ -8,7 +8,7 @@ Supporta invio singolo o multiplo, invio di prova, invio ritardato, verifica del
 
 - PHP 7.4 o successivo
 - estensione OpenSSL abilitata (per le chiamate HTTPS predefinite)
-- account SubitoSMS
+- account creato su SubitoSMS.it
 
 ## Installazione
 
