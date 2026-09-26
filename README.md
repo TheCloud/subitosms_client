@@ -125,13 +125,6 @@ Non ritentare automaticamente un invio quando non sai se il gateway lo abbia ric
 
 Sostituisci le credenziali e gli esempi di numero/ID prima di eseguirli.
 
-## Pubblicazione su Packagist
-
-1. Crea un repository Git pubblico, ad esempio `subitosms/subitosms-php`.
-2. Aggiorna in `composer.json` le sezioni `authors`, `homepage` e `support` se necessario.
-3. Pubblica una release Git taggata, per esempio `v1.0.0`.
-4. Su [Packagist](https://packagist.org/packages/submit), collega il repository e abilita l'aggiornamento automatico via GitHub/GitLab webhook.
-5. Verifica l'installazione in un progetto vuoto con `composer require subitosms/subitosms-php`.
 
 ## Licenza
 
