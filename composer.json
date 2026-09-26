@@ -1,0 +1,43 @@
+{
+  "name": "subitosms/subitosms-php",
+  "description": "Client PHP semplice e senza dipendenze per le API HTTP di SubitoSMS.it.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["sms", "subitosms", "gateway", "api"],
+  "homepage": "https://www.subitosms.it/",
+  "support": {
+    "docs": "https://www.subitosms.it/gateway_sms_http.php",
+    "email": "support@subitosms.it"
+  },
+  "autoload": {
+    "psr-4": {
+      "SubitoSMS\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SubitoSMS\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "archive": {
+    "exclude": [
+      "/.phpunit.result.cache",
+      "/composer.lock",
+      "/phpunit.xml",
+      "/tests",
+      "/vendor"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
